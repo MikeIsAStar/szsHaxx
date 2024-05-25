@@ -1,0 +1,31 @@
+name: Continuous Integration
+
+on: [pull_request, push, workflow_dispatch]
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-20.04
+    container: devkitpro/devkitppc:latest
+
+    steps:
+    - name: Install Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12.3'
+
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Build
+      run: python ./build.py
+
+    - name: Upload
+      uses: actions/upload-artifact@v4
+      with:
+        name: Releases
+        path: |
+          ./data/save/banner/**/*.ppm
+          ./data/save/banner/**/###title###
+          ./data/save/rksys/**/rksys.dat
+          ./data/save/vff/modified/**/*.vff
