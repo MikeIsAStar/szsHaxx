@@ -2,3 +2,6 @@
 .vscode
 build
 out
+
+# Files
+data/save/vff/modified/**/wc24scr.vff
