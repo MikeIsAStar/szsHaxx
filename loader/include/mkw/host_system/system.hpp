@@ -1,6 +1,6 @@
 #pragma once
 
-#include <egg/core/video.hpp>
+#include <egg.hpp>
 
 namespace mkw::HostSystem {
 
