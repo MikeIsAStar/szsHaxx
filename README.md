@@ -48,6 +48,7 @@ Many thanks to the individuals listed below for their help with translations.
 
 - juno
 
-<p align="center">
-    <img alt="szsHaxx message" src="./data/img/message.png" />
-</p>
+# Media
+
+[![szsHaxx (NEW Wii Exploit) Tested on Real Hardware!](https://i.ytimg.com/vi/vJXF7F2b2S4/hqdefault.jpg)](https://www.youtube.com/watch?v=vJXF7F2b2S4)
+[![szsHaxx Demonstration](https://i.ytimg.com/vi/YkNf34A5zk4/hqdefault.jpg)](https://www.youtube.com/watch?v=YkNf34A5zk4)
