@@ -39,6 +39,11 @@ In Mario Kart Wii, competition data is stored within the game's save data. The c
 
 Many thanks to the individuals listed below for their help with translations.
 
+### French
+
+- JohnP55
+- pumpkintheproot
+
 ### Italian
 
 - LNLenost
