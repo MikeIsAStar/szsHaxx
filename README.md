@@ -44,6 +44,9 @@ Many thanks to the individuals listed below for their help with translations.
 - JohnP55
 - pumpkintheproot
 
+### German
+- ItsNiceCraft
+
 ### Italian
 
 - LNLenost
