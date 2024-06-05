@@ -4,4 +4,5 @@ build
 out
 
 # Files
+data/save/rksys/modified/**/rksys.dat
 data/save/vff/modified/**/wc24scr.vff

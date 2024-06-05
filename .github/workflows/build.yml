@@ -25,7 +25,7 @@ jobs:
       with:
         name: Releases
         path: |
-          ./data/save/banner/**/*.ppm
           ./data/save/banner/**/###title###
-          ./data/save/rksys/**/rksys.dat
+          ./data/save/banner/**/*.ppm
+          ./data/save/rksys/modified/**/rksys.dat
           ./data/save/vff/modified/**/*.vff
