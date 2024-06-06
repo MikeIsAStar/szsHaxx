@@ -4,13 +4,13 @@ OUTPUT_ARCH(powerpc:common);
 ENTRY(start);
 
 MEMORY {
-	cluster (rx) : ORIGIN = 0x80388C10, LENGTH = 0x000001F0
+    cluster (rx) : ORIGIN = 0x80388C10, LENGTH = 0x000001F0
 }
 
 SECTIONS {
-	.first : {
-		*(.first)
-	} > cluster
+    .first : {
+        *(.first)
+    } > cluster
     .text : {
         *(.text)
     } > cluster
