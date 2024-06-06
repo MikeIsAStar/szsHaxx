@@ -17,7 +17,7 @@ INCLUDEDIR := include
 SOURCEDIR := source
 
 # Compiler flags
-CXXFLAGS := -I$(INCLUDEDIR) -Oz -Wall -Werror -Wextra -ffreestanding -fno-asynchronous-unwind-tables -fno-exceptions -fno-rtti -fshort-wchar -nostdlib -std=c++23 $(MACHDEP)
+CXXFLAGS := -I$(INCLUDEDIR) -Oz -Wall -Werror -Wextra -ffreestanding -fno-asynchronous-unwind-tables -fno-exceptions -fno-rtti -nostdlib -std=c++23 $(MACHDEP)
 
 # Linker editor
 LD := $(DEVKITPPC)/bin/powerpc-eabi-ld
